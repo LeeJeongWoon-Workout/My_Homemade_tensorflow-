@@ -1,4 +1,4 @@
-class LR_dataset_generator:
+class Data_generator:
     def __init__(self, feature_dim, n_sample = 100, noise = 0):
         self._feature_dim = feature_dim
         self._n_sample = n_sample
