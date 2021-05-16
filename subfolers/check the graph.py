@@ -1,3 +1,7 @@
+N_lines=100
+
+cmap=cm.get_cmap("rainbow",lut=N_lines)
+
 fig,ax=plt.subplots(1,1,figsize=(10,10))
 ax.scatter(x_data,y_data)
 
